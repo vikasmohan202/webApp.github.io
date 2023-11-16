@@ -1,0 +1,5 @@
+{
+    "serverUrl": "https://crmmonster-api-server.azurewebsites.net/api/",
+    "websitePrefix": "beta-",
+    "serverFilePathSubstring": "crmmonsterstorage"
+}
