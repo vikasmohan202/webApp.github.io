@@ -15,11 +15,12 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="https://vikasmohan202.github.io/webApp.github.io/">
+<base href="https://vikasmohan202.github.io/webApp.github.io/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
+<meta name="google-signin-client_id" content='502640840020-8bgac9l8vb1mnnc0glcs19l43n1otl5e.apps.googleusercontent.com'>
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,13 +36,57 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3754652615";
+    const serviceWorkerVersion = "2400302247";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
+  <!-- Google configuration -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAdDd993nGI_Ohj8ayEo_d3hM7OS46706I",
+    authDomain: "crmmonster-49711.firebaseapp.com",
+    projectId: "crmmonster-49711",
+    storageBucket: "crmmonster-49711.appspot.com",
+    messagingSenderId: "502640840020",
+    appId: "1:502640840020:web:3969a80f69d9fdcb320cc1",
+    measurementId: "G-W5YS3VKTXY"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+<!-- Facebook configuration -->
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: '3509660012633520',
+      cookie: true,
+      xfbml: true,
+      version: 'v18.0'
+    });
+
+    FB.AppEvents.logPageView();
+
+  };
+
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
   <script>
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
