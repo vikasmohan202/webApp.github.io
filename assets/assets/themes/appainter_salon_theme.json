@@ -71,9 +71,9 @@
       "onTertiaryContainer": "#ff000000",
       "outline": "#ff000000",
       "outlineVariant": "#ff000000",
-      "primary": "#ff61a58d",
+      "primary": "#bc5ce1",
       "primaryContainer": "#ff6200ee",
-      "secondary": "#ff61a58d",
+      "secondary": "#bc5ce1",
       "secondaryContainer": "#ff03dac6",
       "shadow": "#ff000000",
       "surface": "#ffffffff",
@@ -148,9 +148,9 @@
     "onTertiaryContainer": "#ff000000",
     "outline": "#ff000000",
     "outlineVariant": "#ff000000",
-    "primary": "#ff61a58d",
+    "primary": "#bc5ce1",
     "primaryContainer": "#ff6200ee",
-    "secondary": "#ff61a58d",
+    "secondary": "#bc5ce1",
     "secondaryContainer": "#ff03dac6",
     "shadow": "#ff000000",
     "surface": "#ffffffff",
@@ -169,7 +169,7 @@
   "iconTheme": {
     "color": "#dd000000"
   },
-  "indicatorColor": "#ff61a58d",
+  "indicatorColor": "#bc5ce1",
   "inputDecorationTheme": {
     "alignLabelWithHint": true,
     "border": {
@@ -213,7 +213,7 @@
   },
   "materialTapTargetSize": "shrinkWrap",
   "platform": "windows",
-  "primaryColor": "#ff61a58d",
+  "primaryColor": "#bc5ce1",
   "primaryColorDark": "#ff4e8471",
   "primaryColorLight": "#ffa0c9bb",
   "primaryIconTheme": {
